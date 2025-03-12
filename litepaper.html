@@ -1,0 +1,474 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>$USP - Ultimate Solana Ponzi</title>
+        <meta name="description" content="$USP Litepaper - Ultimate Solana Ponzi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- Additional custom styles -->
+        <style>
+            .litepaper-area {
+                background: #030b15;
+                color: #fff;
+                padding: 120px 0;
+                position: relative;
+            }
+            
+            .litepaper-box {
+                text-align: -webkit-center;
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 12px;
+                padding: 40px;
+                margin-bottom: 30px;
+                backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+            .litepaper-box h3 {
+                color: #00c4f4;
+                margin-bottom: 20px;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            
+            .litepaper-box p {
+                margin-bottom: 15px;
+                line-height: 1.7;
+                font-size:  17px;
+            }
+            
+            .litepaper-highlights {
+                margin: 30px 0;
+            }
+            
+            .litepaper-highlights li {
+                color:#A4B4C3;
+                font-size:20px;
+                margin-bottom: 15px;
+                position: relative;
+                padding-left: 25px;
+            }
+            
+            .litepaper-highlights li:before {
+               
+                position: absolute;
+                left: 0;
+                color: #00c4f4;
+                font-weight: bold;
+            }
+            
+            .litepaper-header {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            
+            .litepaper-header h2 {
+                font-size: 42px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                background: linear-gradient(to right, #00c4f4, #00c4f4);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            
+            .litepaper-subtitle {
+                font-size: 18px;
+                color: #ccc;
+                max-width: 700px;
+                margin: 0 auto;
+            }
+            
+            .token-stats {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+            
+            .stat-item {
+                text-align: center;
+                flex: 1;
+                min-width: 120px;
+                margin: 10px;
+                padding: 15px;
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 8px;
+            }
+            
+            .stat-item .value {
+                font-size: 24px;
+                font-weight: 700;
+                color: #00c4f4;
+                margin-bottom: 5px;
+            }
+            
+            .stat-item .label {
+                font-size: 14px;
+                color: #ccc;
+            }
+            
+            .roadmap-list {
+                position: relative;
+                padding-left: 30px;
+            }
+            
+            .roadmap-list:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background: rgba(255, 255, 255, 0.2);
+            }
+            
+            .roadmap-item {
+                position: relative;
+                padding-bottom: 30px;
+            }
+            
+            .roadmap-item:before {
+                content: "";
+                position: absolute;
+                left: -30px;
+                top: 5px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background: #00c4f4;
+            }
+            
+            .roadmap-item h4 {
+                color: #00c4f4;
+                margin-bottom: 10px;
+            }
+            
+            .roadmap-item p {
+                margin-bottom: 0;
+            }
+            
+            .token-distribution {
+                margin-top: 40px;
+            }
+            
+            .distribution-item {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+            .distribution-item .category {
+                font-weight: 500;
+            }
+            
+            .distribution-item .value {
+                color: #00c4f4;
+                font-weight: 700;
+            }
+            
+            .disclaimer {
+                font-size: 14px;
+                color: #999;
+                padding: 15px;
+                background: rgba(255, 0, 0, 0.1);
+                border-radius: 8px;
+                margin-top: 40px;
+                border: 1px solid rgba(255, 0, 0, 0.2);
+            }
+        </style>
+    </head>
+    <body class="home-01">
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+        <!-- Preloader -->
+
+        <!-- header-area -->
+        <header id="header">
+            <div id="header-fixed-height"></div>
+            <div id="sticky-header" class="menu-area">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-lg-flex" style="justify-content: center; margin-left: -140px; ">
+                                        <ul class="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="index.html#about">About us</a></li>
+                                            <li><a href="index.html#sales">Sales</a></li>
+                                           
+                                            <li class="active"><a href="litepaper.html">Litepaper</a></li>
+                                            <li><a href="index.html#contact">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-action d-none d-md-block">
+                                        <ul>
+                                            <li class="header-btn"><a href="#" class="btn">Buy Now</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Mobile Menu  -->
+                            <div class="mobile-menu">
+                                <nav class="menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo"><a href="index.html"><img src="assets/img/logo/logo.png" alt="" title=""></a>
+                                    </div>
+                                    <div class="menu-outer">
+                                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-area-end -->
+
+        <!-- main-area -->
+        <main class="fix">
+            <!-- litepaper-area -->
+            <section class="litepaper-area">
+                <div class="container">
+                    <div class="litepaper-header">
+                        <h2>$USP Litepaper</h2>
+                        <p class="litepaper-subtitle">Ultimate Solana Ponzi: Automated Rewards Every 10 Minutes</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="litepaper-box"  >
+                                <h3 >Introduction</h3>
+                                <p>$USP—Ultimate Solana Ponzi—is a trailblazing token on the Solana blockchain, designed to turn holding into a passive income stream by delivering SOL rewards every 10 minutes. Built on Solana’s high-speed, low-cost network, USP embodies its name: a system that “prints” wealth through seamless network transactions. Join us in revolutionizing DeFi rewards.</p>
+                            </div>
+                            
+                           
+                            
+                            <div class="litepaper-box"  >
+                                <h3 >The Problem</h3>
+                                <p>Most crypto tokens offer no immediate value to holders unless traded or staked. Passive income in DeFi is often locked behind complexity or high fees.<br>$USP solves this by making rewards effortless and automatic—wealth creation, redefined.</p>
+                            </div>
+                            
+                            <div class="litepaper-box"  >
+                                <h3>Our Solution</h3>
+
+                                <ul class="litepaper-highlights">
+                                    
+                                    <li><strong style="color: #00c4f4;">✓ Automated SOL Rewards:</strong> Earn SOL every 10 minutes simply by holding $USP.</li>
+                                    <li><strong style="color: #00c4f4;">✓ 5% Tax Mechanism: </strong> A 5% buy tax and 5% sell tax fund the reward pool, ensuring sustainability.</li>
+                                    <li><strong style="color: #00c4f4;">✓ Solana-Powered:</strong> Near-instant transactions and minimal fees maximize your earnings.</li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            <div class="litepaper-box"  >
+                                <h3>Tokenomics</h3>
+                               
+                                
+                                <ul class="litepaper-highlights">
+                                    <li><strong style="color: #00c4f4;">Total Supply:</strong> 1 Billion $USP</li>
+                                    <li><strong style="color: #00c4f4;">Initial Distribution:</strong> <br>Liquidity Pool: 100% (fully transparent, with LP tokens burned to ensure permanent liquidity and community trust)
+                                    <br>Note: Entire supply allocated to the liquidity pool at launch; LP burning removes control, locking liquidity forever.</li>
+                                    <li><strong style="color: #00c4f4;">Reward Tax:</strong> 5% on buys, redistributed as SOL to $USP holders.
+                                                                 <br>5% on sells, redistributed as SOL to $USP holders.</li>
+                                </ul>
+                                
+                            </div>
+                           
+                            <div class="litepaper-box">
+                                <h3>How It Works</h3>
+                                <ul class="litepaper-highlights">
+                                    <li><strong >1. Purchase $USP on [DEX, e.g., Raydium].</li>
+                                    <li><strong>2. Store $USP in a Solana wallet (e.g., Phantom).</strong> </li>
+                                    <li><strong >3. Receive SOL rewards every 10 minutes, proportional to your $USP holdings, funded by the 5% buy/sell tax.</li>
+                                    <li><strong>4. Enjoy passive income with confidence—liquidity is burned and secured forever.</strong> </li>
+                                </ul>
+                            </div>
+                            
+                             <div class="litepaper-box">
+                                <h3>Why Solana?</h3>
+                                <ul class="litepaper-highlights">
+                                  <p> Solana’s capacity for up to 700,000 transactions per second with negligible costs powers $USP’s 10-minute reward cycles. Burning the LP tokens leverages Solana’s transparency, ensuring the 1 billion $USP supply is locked in liquidity permanently.</p>
+                                    
+                                </ul>
+                            </div>
+
+                             <div class="litepaper-box">
+                                <h3>Community & Vision</h3>
+                                <p>USP is a movement built on trust and fairness. By burning the liquidity pool tokens, we commit to a fully decentralized and secure ecosystem. Future goals include:</p>
+                                <ul class="litepaper-highlights">
+                                    <li><strong >• Governance for $USP holders.</li>
+                                    <li><strong>• Partnerships within the Solana ecosystem.</strong> </li>
+                                    <li><strong >• Potential NFT integrations or enhanced reward tiers.</li>
+                                </ul>
+                            </div>
+
+
+                          
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- litepaper-area-end -->
+        </main>
+        <!-- main-area-end -->
+
+        <!-- footer-area -->
+        <footer>
+            <div class="footer-area">
+                <div class="container">
+                    <div class="footer-scroll-wrap">
+                        <button class="scroll-to-target" data-target="html"><i class="fas fa-arrow-up"></i></button>
+                    </div>
+                    <div class="footer-top">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="index.html" class="f-logo"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    <div class="footer-content">
+                                        <p>The most honest Ponzi on Solana. Join now and be part of this revolutionary token that doesn't hide what it is!</p>
+                                        <ul class="footer-social">
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-discord"></i></a></li>
+                                            <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-5 col-sm-6">
+                                <div class="footer-widget  wow fadeInUp" data-wow-delay=".4s">
+                                    <h4 class="fw-title">Useful Links</h4>
+                                    <div class="footer-link">
+                                        <ul>
+                                            <li><a href="#">Buy on Raydium</a></li>
+                                            <li><a href="#">How it Works</a></li>
+                                            <li><a href="#">White Paper</a></li>
+                                            <li><a href="#">Explorer</a></li>
+                                            <li><a href="#">Terms & Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-sm-6">
+                                <div class="footer-widget wow fadeInUp" data-wow-delay=".6s">
+                                    <h4 class="fw-title">Community</h4>
+                                    <div class="footer-link">
+                                        <ul>
+                                            <li><a href="#">Help Center</a></li>
+                                            <li><a href="#">Partners</a></li>
+                                            <li><a href="#">Suggestions</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Newsletter</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="footer-widget wow fadeInUp" data-wow-delay=".8s">
+                                    <h4 class="fw-title">Subscribe Newsletter</h4>
+                                    <div class="footer-newsletter">
+                                        <p>Get the latest updates and news about our token directly to your inbox</p>
+                                        <form action="#">
+                                            <input type="email" placeholder="Your email address" required>
+                                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="copyright-text">
+                                    <p>Copyright &copy; 2025. All Rights Reserved $USP</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-none d-sm-block">
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="#">Terms and conditions</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                        <li><a href="#">Buy $USP</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-area-end -->
+
+        <!-- JS here -->
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.odometer.min.js"></script>
+        <script src="assets/js/jquery.countdown.min.js"></script>
+        <script src="assets/js/jquery.knob.min.js"></script>
+        <script src="assets/js/jquery-countdowngampang.min.js"></script>
+        <script src="assets/js/jquery.ba-throttle-debounce.min.js"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.min.js"></script>
+        <script src="assets/js/jarallax.min.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/jquery.easing.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        
+        <!-- Custom Scripts -->
+        <script>
+            // Function for copy button
+            function copyContractAddress() {
+                var copyText = document.getElementById("contractAddress");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+                
+                var copyButton = document.getElementById("copyButton");
+                copyButton.innerHTML = "Copied!";
+                
+                setTimeout(function(){
+                    copyButton.innerHTML = "Copy";
+                }, 2000);
+            }
+        </script>
+    </body>
+</html>
